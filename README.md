@@ -58,6 +58,14 @@ Each lab lists: **Goal**, **Topology**, **Tasks**, and **Verification** (what to
 
 **Verify:** Full ping matrix; MAC table screenshot.
 
+**Result:** All 5 PCs successfully pinged each other with 0% packet loss, confirming full connectivity through the switch. The MAC address table was empty before generating traffic and populated with each PC's MAC-to-port mapping only after pings occurred — confirming that switches learn MAC addresses dynamically from observed traffic rather than static configuration.
+
+<img width="954" height="1007" alt="image" src="https://github.com/user-attachments/assets/ce8d73a6-e5f1-4919-bc91-f1ed6df666a7" />
+
+<img width="956" height="1012" alt="image" src="https://github.com/user-attachments/assets/217e03ba-7f00-40d9-b860-e871d41d873d" />
+
+<img width="959" height="1021" alt="image" src="https://github.com/user-attachments/assets/a34e8c9f-79a1-4c4f-92f1-a80705ac8e80" />
+
 ### Lab 3: Basic Switch CLI Configuration
 **Goal:** Get comfortable with Cisco IOS basics.
 - Console into the switch.
