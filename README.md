@@ -1,6 +1,6 @@
 # Packet Tracer Lab Roadmap — IT Support / Network Engineer Prep
 
-# Manifesting for a NOC/Network Role, BIGAY NIYO NA SA'KIN 'TO
+# Manifesting for a NOC/Network Role, BIGAY NIYO NA SA'KIN 'TO PLEASE
 
 # First NOC Interview done!
 
