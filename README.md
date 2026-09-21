@@ -75,6 +75,14 @@ Each lab lists: **Goal**, **Topology**, **Tasks**, and **Verification** (what to
 
 **Verify:** `show running-config` screenshot; successful Telnet login from a PC.
 
+**Result:** Configured SW1 with a hostname, encrypted enable secret, console and VTY passwords, a login banner, and enabled password encryption. Assigned a management IP to VLAN 1's SVI and successfully Telnetted into the switch from PC-1, confirming both remote access and privileged mode authentication worked as configured.
+
+<img width="954" height="1018" alt="image" src="https://github.com/user-attachments/assets/d446ea26-9bc0-402d-880b-00f11eac107b" />
+
+<img width="952" height="1018" alt="image" src="https://github.com/user-attachments/assets/0321ce0a-ace9-45b0-a3c2-38386ab3052a" />
+
+<img width="954" height="1025" alt="image" src="https://github.com/user-attachments/assets/15530266-d6a3-46d1-a4f8-88e234c533b3" />
+
 ---
 
 ## LEVEL 2 — Switching
