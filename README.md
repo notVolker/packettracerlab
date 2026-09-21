@@ -11,7 +11,7 @@ Each lab lists: **Goal**, **Topology**, **Tasks**, and **Verification** (what to
 
 - [x] Lab 1: Basic PC-to-PC Connectivity
 - [X] Lab 2: Star Topology with a Switch
-- [ ] Lab 3: Basic Switch CLI Configuration
+- [X] Lab 3: Basic Switch CLI Configuration
 - [ ] Lab 4: VLANs
 - [ ] Lab 5: Trunking Between Switches (802.1Q)
 - [ ] Lab 6: Inter-VLAN Routing (Router-on-a-Stick)
