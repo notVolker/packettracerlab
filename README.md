@@ -10,7 +10,7 @@ Each lab lists: **Goal**, **Topology**, **Tasks**, and **Verification** (what to
 ## Progress Tracker
 
 - [x] Lab 1: Basic PC-to-PC Connectivity
-- [ ] Lab 2: Star Topology with a Switch
+- [X] Lab 2: Star Topology with a Switch
 - [ ] Lab 3: Basic Switch CLI Configuration
 - [ ] Lab 4: VLANs
 - [ ] Lab 5: Trunking Between Switches (802.1Q)
