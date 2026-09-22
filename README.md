@@ -14,7 +14,7 @@ Each lab lists: **Goal**, **Topology**, **Tasks**, and **Verification** (what to
 - [x] Lab 1: Basic PC-to-PC Connectivity
 - [X] Lab 2: Star Topology with a Switch
 - [X] Lab 3: Basic Switch CLI Configuration
-- [ ] Lab 4: VLANs
+- [X] Lab 4: VLANs
 - [ ] Lab 5: Trunking Between Switches (802.1Q)
 - [ ] Lab 6: Inter-VLAN Routing (Router-on-a-Stick)
 - [ ] Lab 7: Spanning Tree Protocol (STP)
@@ -97,6 +97,22 @@ Each lab lists: **Goal**, **Topology**, **Tasks**, and **Verification** (what to
 - Confirm PCs in the same VLAN can ping each other, but PCs in different VLANs cannot (yet).
 
 **Verify:** `show vlan brief` output; ping matrix showing isolation.
+
+**Result:** Created VLAN 10 (Sales) and VLAN 20 (IT) on SW1 and assigned 3 access ports to each. Confirmed that PCs within the same VLAN could ping each other successfully, while PCs in different VLANs could not communicate — despite being on the same IP subnet — demonstrating that VLANs create separate broadcast domains at Layer 2 regardless of Layer 3 addressing.
+
+<img width="954" height="1023" alt="download" src="https://github.com/user-attachments/assets/b0b12669-95ef-48ec-bd8b-1da9bec1e376" />
+
+<img width="694" height="724" alt="download" src="https://github.com/user-attachments/assets/40ca5e93-d338-4085-be9d-126149e617d0" />
+
+<img width="694" height="700" alt="download" src="https://github.com/user-attachments/assets/3fdb1f86-e74f-42bc-abb8-ae59fb74dc81" />
+
+*NOTE: **switchport mode access** explicitly locks the port as an access port (single VLAN, connects to end devices) rather than leaving it to negotiate — always good practice to set this explicitly rather than relying on defaults.
+
+<img width="689" height="694" alt="download" src="https://github.com/user-attachments/assets/c4ee6aa0-cdb8-4139-9664-259490081474" />
+
+<img width="693" height="688" alt="download" src="https://github.com/user-attachments/assets/1c054d2e-dcea-4414-b88e-cd269f8c7a18" />
+
+<img width="691" height="686" alt="download" src="https://github.com/user-attachments/assets/b83e1cd4-bfcd-4743-8c71-740a6f85cbc9" />
 
 ### Lab 5: Trunking Between Switches (802.1Q)
 **Goal:** Carry multiple VLANs across switches.
