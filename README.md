@@ -15,7 +15,7 @@ Each lab lists: **Goal**, **Topology**, **Tasks**, and **Verification** (what to
 - [X] Lab 2: Star Topology with a Switch
 - [X] Lab 3: Basic Switch CLI Configuration
 - [X] Lab 4: VLANs
-- [ ] Lab 5: Trunking Between Switches (802.1Q)
+- [X] Lab 5: Trunking Between Switches (802.1Q)
 - [ ] Lab 6: Inter-VLAN Routing (Router-on-a-Stick)
 - [ ] Lab 7: Spanning Tree Protocol (STP)
 - [ ] Lab 8: Static Routing
@@ -121,6 +121,18 @@ Each lab lists: **Goal**, **Topology**, **Tasks**, and **Verification** (what to
 - Verify PCs in VLAN 10 on Switch A can reach VLAN 10 PCs on Switch B.
 
 **Verify:** `show interfaces trunk`; cross-switch ping success within same VLAN.
+
+**Result:** Extended the VLAN design from Lab 4 by adding a second switch (SW1) and connecting it to SW0 via an 802.1Q trunk carrying VLANs 10 and 20. Verified that PCs in the same VLAN could communicate across switches (Sales-1 to Sales-4), while PCs in different VLANs remained isolated even across the trunk (Sales-1 to IT-4) — confirming that trunking extends VLAN segmentation across multiple switches without merging broadcast domains.
+
+<img width="951" height="1028" alt="image" src="https://github.com/user-attachments/assets/711eb57c-f2e4-491b-a0bc-ac65b5b92ead" />
+
+<img width="694" height="703" alt="image" src="https://github.com/user-attachments/assets/da73fc72-8fa7-49de-bc0d-7f752c093554" />
+
+<img width="696" height="697" alt="image" src="https://github.com/user-attachments/assets/109ef934-5f72-4628-811a-854b20ffbe11" />
+
+<img width="692" height="700" alt="image" src="https://github.com/user-attachments/assets/c5e107c9-c839-45e2-8fb7-fa5cacc0eb2b" />
+
+<img width="693" height="698" alt="image" src="https://github.com/user-attachments/assets/7f3f2fa8-e976-4071-8607-5dce4e0380ff" />
 
 ### Lab 6: Inter-VLAN Routing (Router-on-a-Stick)
 **Goal:** Let VLANs talk to each other via a router.
