@@ -6,6 +6,8 @@
 
 # IT Infrastructure Interview done!
 
+# IT Infrastructure Tech Interview done (FAHH!)
+
 A progressive set of labs, from basic connectivity to a full multi-service network.
 Each lab lists: **Goal**, **Topology**, **Tasks**, and **Verification** (what to screenshot for your GitHub repo).
 
