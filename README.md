@@ -1,19 +1,5 @@
 # Packet Tracer Lab Roadmap — IT Support / Network Engineer Prep
 
-# Manifesting for a NOC/Network Role, BIGAY NIYO NA SA'KIN 'TO PLEASE
-
-# First NOC Interview done!
-
-# IT Infrastructure Interview done!
-
-# IT Infrastructure Tech Interview done (FAHH!) back to zero 
-
-# tbh idk what im doing w my life lately
-
-# we bounce back tommo!
-
-# rock bottom
-
 A progressive set of labs, from basic connectivity to a full multi-service network.
 Each lab lists: **Goal**, **Topology**, **Tasks**, and **Verification** (what to screenshot for your GitHub repo).
 
@@ -24,7 +10,7 @@ Each lab lists: **Goal**, **Topology**, **Tasks**, and **Verification** (what to
 - [X] Lab 3: Basic Switch CLI Configuration
 - [X] Lab 4: VLANs
 - [X] Lab 5: Trunking Between Switches (802.1Q)
-- [ ] Lab 6: Inter-VLAN Routing (Router-on-a-Stick)
+- [X] Lab 6: Inter-VLAN Routing (Router-on-a-Stick)
 - [ ] Lab 7: Spanning Tree Protocol (STP)
 - [ ] Lab 8: Static Routing
 - [ ] Lab 9: Default Routes
@@ -152,6 +138,16 @@ Each lab lists: **Goal**, **Topology**, **Tasks**, and **Verification** (what to
 **Verify:** `show ip interface brief`; successful cross-VLAN ping; traceroute showing router hop.
 
 *Bonus:* Redo this with a Layer 3 switch and SVIs instead of router-on-a-stick — compare configs.
+
+**Result:** Connected a router to SW0 via a trunk link and configured router-on-a-stick with two subinterfaces (Gi0/0.10 for VLAN 10, Gi0/0.20 for VLAN 20), each acting as the default gateway for its respective VLAN's subnet. Re-addressed Sales and IT into separate subnets (192.168.10.0/24 and 192.168.20.0/24) and confirmed that devices in different VLANs could now communicate through the router, while a traceroute confirmed traffic was actually routed through R1 rather than switched directly.
+
+<img width="955" height="1025" alt="image" src="https://github.com/user-attachments/assets/dc83cae2-2337-46b9-bced-07b4ede40bf1" />
+
+<img width="693" height="660" alt="image" src="https://github.com/user-attachments/assets/c7aa7669-a2c9-4a89-9e18-d2fd4b096377" />
+
+<img width="699" height="667" alt="image" src="https://github.com/user-attachments/assets/c90255ab-a403-4b55-9f58-fd10b7704e4e" />
+
+<img width="693" height="670" alt="image" src="https://github.com/user-attachments/assets/a83577bd-b7ad-4648-a8bb-cca6ae6cc1f8" />
 
 ### Lab 7: Spanning Tree Protocol (STP)
 **Goal:** Understand loop prevention.
