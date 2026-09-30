@@ -158,6 +158,16 @@ Each lab lists: **Goal**, **Topology**, **Tasks**, and **Verification** (what to
 
 **Verify:** `show spanning-tree` before/after; screenshot of blocked port.
 
+**Result:** Built a triangle topology of 3 switches with redundant links, allowing STP to automatically elect a root bridge and block one port to prevent a Layer 2 loop, while maintaining full connectivity between all PCs. Manually forced SW-B to become root using spanning-tree vlan 1 priority 0, then simulated a link failure on an active path — confirming STP automatically transitioned the previously blocked port to forwarding, restoring connectivity within seconds and demonstrating both loop prevention and redundancy/self-healing.
+
+<img width="951" height="1022" alt="image" src="https://github.com/user-attachments/assets/2a9d19cf-1420-44fe-b83b-9988683c9956" />
+
+<img width="695" height="660" alt="image" src="https://github.com/user-attachments/assets/731f7268-4a0a-4b62-a09e-1d49f9a7ce6f" />
+
+<img width="694" height="657" alt="image" src="https://github.com/user-attachments/assets/a5c773f2-c66e-4534-9a2a-e534ac2b1f5b" />
+
+<img width="694" height="681" alt="image" src="https://github.com/user-attachments/assets/c175efe4-512e-44ca-86dd-1b191efebccd" />
+
 ---
 
 ## LEVEL 3 — Routing
