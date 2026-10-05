@@ -186,6 +186,11 @@ Each lab lists: **Goal**, **Topology**, **Tasks**, and **Verification** (what to
 
 **Verify:** `show ip route`; full ping matrix across all LANs.
 
+**Result:** Built a 3-router topology (R1–R2–R3) with separate LANs behind R1 and R3. Confirmed that without static routes, routers could only reach directly connected networks — PC1 could not reach PC3 despite both being part of the same overall topology. After configuring static routes on all three routers pointing toward each non-directly-connected network, full end-to-end connectivity was established, confirmed via successful ping and a 3-hop traceroute showing the expected path through R1 and R2 to reach R3's LAN.
+
+<img width="616" height="505" alt="image" src="https://github.com/user-attachments/assets/6efc1c10-7ee9-4461-bda6-7a8641c958a0" />
+
+
 ### Lab 9: Default Routes
 **Goal:** Simplify edge routing.
 - Same topology, but on edge routers use `ip route 0.0.0.0 0.0.0.0 <next-hop>` instead of explicit routes for the "rest of the internet."
