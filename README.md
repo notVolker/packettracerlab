@@ -1,10 +1,6 @@
 # Packet Tracer Lab Roadmap — IT Support / Network Engineer Prep
 
-# Give yourself a try
-
-# Lost
-
-# bounce back
+# too lazy to do anything
 
 A progressive set of labs, from basic connectivity to a full multi-service network.
 Each lab lists: **Goal**, **Topology**, **Tasks**, and **Verification** (what to screenshot for your GitHub repo).
