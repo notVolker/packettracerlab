@@ -14,7 +14,7 @@ Each lab lists: **Goal**, **Topology**, **Tasks**, and **Verification** (what to
 - [X] Lab 5: Trunking Between Switches (802.1Q)
 - [X] Lab 6: Inter-VLAN Routing (Router-on-a-Stick)
 - [X] Lab 7: Spanning Tree Protocol (STP)
-- [ ] Lab 8: Static Routing
+- [X] Lab 8: Static Routing
 - [ ] Lab 9: Default Routes
 - [ ] Lab 10: Dynamic Routing — RIP
 - [ ] Lab 11: Dynamic Routing — OSPF (Single Area)
