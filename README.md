@@ -1,7 +1,5 @@
 # Packet Tracer Lab Roadmap — IT Support / Network Engineer Prep
 
-redirection
-
 A progressive set of labs, from basic connectivity to a full multi-service network.
 Each lab lists: **Goal**, **Topology**, **Tasks**, and **Verification** 
 
