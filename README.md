@@ -1,5 +1,7 @@
 # Packet Tracer Lab Roadmap — IT Support / Network Engineer Prep
 
+*We gotta pause this for now because I got hired as an Jr. Application Engineer. Who knows but maybe I'll focus more on my path right now.
+
 A progressive set of labs, from basic connectivity to a full multi-service network.
 Each lab lists: **Goal**, **Topology**, **Tasks**, and **Verification** 
 
